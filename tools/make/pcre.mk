@@ -26,7 +26,6 @@ $(BUILDDIR)/pcre: $(SOURCEDIR)/$(PCREARCHIVE) $(BUILDDIR)/zlib
 	@cd $(SOURCEDIR)
 	@wget $(PCREURI)
 	@unzip -q $(PCREARCHIVE) -d $(BUILDDIR)
-	#@unzip -q $(SOURCEDIR)/$(PCREARCHIVE) -d $(BUILDDIR)
 	@cd $@-$(PCREVERSION)			\
 	&& $(BUILDENV)					\
 		./configure					\
