@@ -128,8 +128,8 @@
     "x264": {
         "version": "master",
         "archive": "x264-master.tar.gz",
-        "uri": "https://code.videolan.org/videolan/x264/-/archive/master/x264-master.tar.gz",
-        "website": "https://code.videolan.org/videolan/x264/"
+        "uri": "https://github.com/balves42/miicam_2022/raw/master/utils/x264-master.tar.gz",
+        "website": "https://github.com/balves42/miicam_2022/raw/master/utils/"
     },
     "ffmpeg": {
         "version": "4.0.4",

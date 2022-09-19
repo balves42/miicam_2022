@@ -23,7 +23,9 @@ $(SOURCEDIR)/$(X264ARCHIVE): $(SOURCEDIR)
 $(BUILDDIR)/x264: $(SOURCEDIR)/$(X264ARCHIVE)
 	$(call box,"Building x264")
 	@mkdir -p $(BUILDDIR) && rm -rf $@-$(X264VERSION)
-	@tar -xzf $(SOURCEDIR)/$(X264ARCHIVE) -C $(BUILDDIR)
+	@cd $(SOURCEDIR)
+	@wget $(X264URI)
+	@tar -xzf $(X264ARCHIVE) -C $(BUILDDIR)
 	@cd $@-$(X264VERSION)				\
 	&& $(BUILDENV)						\
 		./configure						\
