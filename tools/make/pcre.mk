@@ -23,7 +23,10 @@ $(SOURCEDIR)/$(PCREARCHIVE): $(SOURCEDIR)
 $(BUILDDIR)/pcre: $(SOURCEDIR)/$(PCREARCHIVE) $(BUILDDIR)/zlib
 	$(call box,"Building libpcre")
 	@mkdir -p $(BUILDDIR) && rm -rf $@-$(PCREVERSION)
-	@unzip -q $(SOURCEDIR)/$(PCREARCHIVE) -d $(BUILDDIR)
+	@cd $(SOURCEDIR)
+	@wget $(PCREURI)
+	@unzip -q $(PCREARCHIVE) -d $(BUILDDIR)
+	#@unzip -q $(SOURCEDIR)/$(PCREARCHIVE) -d $(BUILDDIR)
 	@cd $@-$(PCREVERSION)			\
 	&& $(BUILDENV)					\
 		./configure					\

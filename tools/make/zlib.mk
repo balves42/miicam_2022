@@ -23,7 +23,9 @@ $(SOURCEDIR)/$(ZLIBARCHIVE): $(SOURCEDIR)
 $(BUILDDIR)/zlib: $(SOURCEDIR)/$(ZLIBARCHIVE)
 	$(call box,"Building zlib")
 	@mkdir -p $(BUILDDIR) && rm -rf $@-$(ZLIBVERSION)
-	@tar -xzf $(SOURCEDIR)/$(ZLIBARCHIVE) -C $(BUILDDIR)
+	@cd $(SOURCEDIR)
+	@wget $(ZLIBURI)
+	@tar -xzf $(ZLIBARCHIVE) -C $(BUILDDIR)
 	@cd $@-$(ZLIBVERSION)			\
 	&& $(BUILDENV)					\
 		./configure					\
