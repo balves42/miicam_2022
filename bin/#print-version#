@@ -1,0 +1,15 @@
+#!/bin/sh
+TAG="$( git tag -l  | sort | tail -n 1 )"
+COMMIT="$( git rev-parse --verify HEAD )"
+DATESTAMP="$( date '+%Y.%m.%d' )"
+TIMESTAMP="$( date '+%Y%m%d%H%M%S' )"
+
+cat <<!
+NAME=MiiCam
+VERSION=$TAG
+ID=$COMMIT
+BUILDDATE=$DATESTAMP
+BUILDTIME=$TIMESTAMP
+HOME_URL="https://github.com/balves42/miicam_2022/blob/master/docs/content/"
+BUG_REPORT_URL="https://github.com/miicam/MiiCam/issues"
+!
