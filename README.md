@@ -3,10 +3,10 @@
 I was curious about testing the MiiCam project in an old Chuangmi 720p i had on a drawer. Since the binaries were not available anymore and the script to build them was not working, i replaced the broken links for testing purposes.
 There are lots of outdated dependencies, if you plan to use this you should update it or use a better camera.
 
-# MiiCam hack project
+**All credits go to the original author, i will not be giving support to the project. This is just a test.**
 
 
-## MiiCam is retiring!
+## MiiCam hack project - MiiCam is retiring!
 
 Maintaining a webcam project like this one in a secure manner is a lot of work!
 As this camera is getting older, it needs more and more attention to determine keep it up to date and (semi) "secure"
@@ -49,23 +49,15 @@ simply copying the files in the repository to your sd card without building the 
 
 ### Build the binaries
 
-To build the binaries yourself, [have a look at the instructions for building a firmware using docker](https://github.com/balves42/miicam_2022/blob/master/docs/content/development/How-to-build-the-binaries-for-the-webcam-hack).
+To build the binaries yourself, [have a look at the instructions for building a firmware using docker](https://github.com/balves42/miicam_2022/blob/master/docs/content/development/How-to-build-the-binaries-for-the-webcam-hack.md).
 
-
-### Upgrading the binaries
-
-To upgrade the firmware, pull the repo, clean and rebuild:
-
-```
-git pull && ./manage --all
-```
 
 ## Security considerations
 
 The short version: **DO NOT EVER PUBLICLY EXPOSE THIS WEBCAM TO THE INTERNETZ!**
 The longer version [can be read on its own page](https://github.com/balves42/miicam_2022/blob/master/docs/content/Security-Considerations.md).
 
-In fact, forget the theme park and **DO NOT USE THIS WEBCAM FIRMWARE AT ALL BECAUSE IT IS BEING SUNSET SOON!**
+In fact, forget the theme park and **DO NOT USE THIS WEBCAM FIRMWARE AT ALL BECAUSE IT IS A FORK FOR TESTING PURPOSES!**
 
 
 ## Troubleshooting
