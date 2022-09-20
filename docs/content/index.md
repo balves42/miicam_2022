@@ -33,7 +33,7 @@ For common issues and known bugs, have a look [at the troubleshooting guide](/Tr
 
 ## Links
 
-Github Repo: [github.com/miicam/MiiCam](https://github.com/miicam/MiiCam)
+Github Repo: [github.com/miicam/MiiCam](https://github.com/balves42/miicam_2022)
 
-Documentation: [miicam.github.io](https://miicam.github.io/)
+Documentation: [github.com/balves42/miicam_2022/blob/master/docs/content](https://github.com/balves42/miicam_2022/blob/master/docs/content/)
 

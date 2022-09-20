@@ -102,8 +102,8 @@ Or track the system load:
 ```
 
 
-Have a look [in the source code to](https://github.com/miicam/MiiCam/blob/master/sdcard/firmware/scripts/mqtt-interval.sh) 
-[see which commands are available](https://github.com/miicam/MiiCam/blob/master/sdcard/firmware/scripts/mqtt-control.sh) 
+Have a look [in the source code to](https://github.com/balves42/miicam_2022/blob/master/sdcard/firmware/scripts/mqtt-interval.sh) 
+[see which commands are available](https://github.com/balves42/miicam_2022/blob/master/sdcard/firmware/scripts/mqtt-control.sh) 
 for control.
 
 I would not recommend to map each functionality and part of the output the camera spits out 

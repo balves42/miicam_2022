@@ -1,12 +1,12 @@
 site_name: MiiCam Documentation
 site_description: 'Documentation for the MiiCam Project'
 site_author: 'Flip Hess'
-site_url: 'https://miicam.github.io'
+site_url: 'https://github.com/balves42/miicam_2022/blob/master/docs/content'
 site_dir: docs-repo
 
 repo_name: 'MiiCam/MiiCam'
-repo_url: 'https://github.com/MiiCam/MiiCam'
-edit_uri: https://github.com/miicam/MiiCam/edit/master/docs/
+repo_url: 'https://github.com/balves42/miicam_2022'
+edit_uri: https://github.com/balves42/miicam_2022/edit/master/docs/
 docs_dir: content/
 
 nav:

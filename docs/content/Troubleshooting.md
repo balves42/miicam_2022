@@ -110,7 +110,7 @@ Because the repo itself does not contain the binaries that are required to run t
 It is therefor recommended for new users to use the tarbal or zip files that are created with every release.
 These releases are the only versions that are tested thoroughly.
 
-You can download the latest on the [releases page](https://github.com/MiiCam/MiiCam/releases).
+You can download the latest on the [releases page](https://github.com/balves42/miicam_2022/releases).
 
 After you've downloaded the tgz file, unpack the tarbal using the following command:
 ```

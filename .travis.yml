@@ -63,7 +63,7 @@ jobs:
     - pip3 install -r ${TRAVIS_BUILD_DIR}/docs/requirements.txt
 
     script:
-    - git clone git@github.com:miicam/miicam.github.io.git ${TRAVIS_BUILD_DIR}/docs/docs-repo
+    - git clone git@github.com:miicam/github.com/balves42/miicam_2022/blob/master/docs/content.git ${TRAVIS_BUILD_DIR}/docs/docs-repo
     - cd ${TRAVIS_BUILD_DIR}/docs && mkdocs build --verbose --clean --strict
     - if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then cd ${TRAVIS_BUILD_DIR}/docs/docs-repo && git add . && git commit -am "Update documention by travis" && git push -u origin master; fi;
 

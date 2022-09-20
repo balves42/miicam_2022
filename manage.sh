@@ -40,8 +40,8 @@ function usage()
 
       --open-links     - Open all download links in the browser
 
-    Download toolchain: https://fliphess.com/toolchain/
-    Repo: https://github.com/MiiCam/MiiCam
+    Download toolchain: https://github.com/balves42/miicam_2022/raw/master/utils/toolchain_gnueabi-4.4.0_ARMv5TE.tgz
+    Repo: https://github.com/balves42/miicam_2022
 
 EOF
 

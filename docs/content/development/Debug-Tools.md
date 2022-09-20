@@ -18,7 +18,7 @@ Some useful tools are:
 
 
 
-If you miss a specific tool, create a PR or an issue to [get help with implementing new software on the camera](https://miicam.github.io/development/Adding-software-to-the-build/).
+If you miss a specific tool, create a PR or an issue to [get help with implementing new software on the camera](https://github.com/balves42/miicam_2022/blob/master/docs/content/development/Adding-software-to-the-build/).
 
 
 ## Editors
@@ -28,4 +28,4 @@ For editors you have two choices for now: vi and nano. If you prefer a more grap
 
 ## Toolchain and hardware specifics
 
-For firmware specifics and the custom kernel modules used to control the internal hardware of the camera, have a look at [the pdf's in the toolchain documentation](https://github.com/miicam/MiiCamDocs/tree/master/documents).
+For firmware specifics and the custom kernel modules used to control the internal hardware of the camera, have a look at [the pdf's in the toolchain documentation](https://github.com/balves42/miicam_2022Docs/tree/master/documents).

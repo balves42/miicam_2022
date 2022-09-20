@@ -81,7 +81,7 @@ and use `su` to run the job under another uid.
 
 The busybox crond does **not** support  `@yearly`, `@hourly` or any other at sign notations.
 
-Using [a little hack](https://github.com/MiiCam/MiiCam/blob/master/sdcard/firmware/etc/init/S99crond) in the init script of the crond, `@restart` is sort of possible, and jobs using this notation are executed every time the daemon is started through the init script:
+Using [a little hack](https://github.com/balves42/miicam_2022/blob/master/sdcard/firmware/etc/init/S99crond) in the init script of the crond, `@restart` is sort of possible, and jobs using this notation are executed every time the daemon is started through the init script:
 
 ```cron
 @restart cat /tmp/sd/some/other/location/crontab >> /var/run/crontab
