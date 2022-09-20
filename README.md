@@ -1,8 +1,3 @@
-[![Build Status](https://travis-ci.org/miicam/MiiCam.svg?branch=master)](https://travis-ci.org/miicam/MiiCam)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MiiCam/MiiCam.svg)](https://github.com/balves42/miicam_2022/pulse)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MiiCam/MiiCam.svg)](https://github.com/balves42/miicam_2022)
-[![GitHub All Releases](https://img.shields.io/github/downloads/MiiCam/MiiCam/total.svg)](https://github.com/balves42/miicam_2022/releases)
-
 # About this fork
 
 I was curious about testing the MiiCam project in an old Chuangmi 720p i had on a drawer. Since the binaries were not available anymore and the script to build them was not working, i replaced the broken links for testing purposes.
